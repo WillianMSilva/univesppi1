@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="./assets/logo.png" type="image/png">
+  <title>Lanchonete Dona Maria</title>
+  
+  <link rel="stylesheet" href="./style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div id="app">
+    <header class="container">
+      <nav>
+        <img src="./assets/logo.png" alt="Logomarca em formato de hambuguer">
+
+
+
+        <ul>
+          <li>Home</li>
+          <li  class="active">Cardápio</li>
+        </ul>
+      </nav>
+
+      <form action="">
+        <div class="input-wrapper">
+          <label for="search">Pesquise por imagens e coleções</label>
+          <input id="search" type="text" placeholder="Pesquise seu lanche"/>
+        </div>
+      </form>
+
+<!--
+      <img class="avatar" src="https://randomuser.me/api/portraits/men/17.jpg" alt="Imagem de um homem">
+
+      <img src="./assets/head.jpeg" alt="Homem segurando dois lanches" class="open">
+
+      <div class="info">
+        <p><img src="./assets/whatsapp.png" alt="Logo do WhatsApp" class="social"> (XX) XXXXX-XXXX</p>
+        <p><img src="./assets/facebook.png" alt="Logo do Facebook" class="social"> facebook.com/donamaria</p>
+        <p><img src="./assets/instagram.png" alt="Logo do Instagram" class="social"> instagram.com/donamaria</p>
+      </div>
+      -->
+    </header>
+
+
+    <main>
+
+      <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false">
+       <image href="./assets/entrada.jpg" width="100%" height="100%"  preserveAspectRatio="none" />
+</svg>
+
+
+      <div class="container">
+        <h1>Cardápio</h1>
+
+        <section class="gallery">
+          <figure class="item">
+            <img src="./assets/dish1.jpg" alt="">
+
+            <figcaption class="details">
+              <h2>X-Bacon Supremo</h2>
+              <div class="tags">
+                <span>tag</span>
+              </div>
+            </figcaption>
+          </figure>
+
+          <figure class="item" style="--delay:0.8s">
+            <img src="./assets/dish2.jpg" alt="">
+
+            <figcaption class="details">
+              <h2>Cheeseburger Clássico</h2>
+              <div class="tags">
+                <span>tag</span>
+              </div>
+            </figcaption>
+          </figure>
+
+          <figure class="item" style="--delay:1.2s">
+            <img src="./assets/dish3.jpg" alt="">
+
+            <figcaption class="details">
+              <h2>Batata Rústica</h2>
+              <div class="tags">
+                <span>tag</span>
+              </div>
+            </figcaption>
+          </figure>
+
+          <figure class="item" style="--delay:1.6s">
+            <img src="./assets/dish4.jpg" alt="">
+
+            <figcaption class="details">
+              <h2>X-Molho Especial</h2>
+              <div class="tags">
+                <span>tag</span>
+              </div>
+            </figcaption>
+          </figure>
+
+          <figure class="item" style="--delay:2.0s">
+            <img src="./assets/dish5.jpg" alt="">
+
+            <figcaption class="details">
+              <h2>Choripan</h2>
+              <div class="tags">
+                <span>tag</span>
+              </div>
+            </figcaption>
+          </figure>
+
+          <figure class="item" style="--delay:2.4s">
+            <img src="./assets/dish6.jpg" alt="">
+
+            <figcaption class="details">
+              <h2>Frango Acebolado</h2>
+              <div class="tags">
+                <span>tag</span>
+              </div>
+            </figcaption>
+          </figure>
+
+          <figure class="item" style="--delay:2.8s">
+            <img src="./assets/dish7.jpg" alt="">
+
+            <figcaption class="details">
+              <h2>X-Infarto</h2>
+              <div class="tags">
+                <span>tag</span>
+              </div>
+            </figcaption>
+          </figure>
+
+          <figure class="item" style="--delay:3.2s">
+            <img src="./assets/dish8.jpg" alt="">
+
+            <figcaption class="details">
+              <h2>X-Saladão</h2>
+              <div class="tags">
+                <span>tag</span>
+              </div>
+            </figcaption>
+          </figure>
+
+          <figure class="item" style="--delay:3.6s">
+            <img src="./assets/dish9.jpg" alt="">
+
+            <figcaption class="details">
+              <h2>X-Lanche Feliz</h2>
+              <div class="tags">
+                <span>tag</span>
+              </div>
+            </figcaption>
+          </figure>
+        </section>
+
+        <h1>Faça Seu Pedido</h1>
+        
+        <section class="form-container">
+          <form action="">
+            <div class="form-wrapper">
+              <label for="name">Digite seu nome:</label>
+              <input id="name" type="text" placeholder="Digite seu nome"/>
+              <label for="phone">Digite seu telefone:</label>
+              <input id="name" type="phone" placeholder="Digite seu telefone">
+              <label for="order">Digite seu pedido:</label>
+              <textarea id="order" cols="30" rows="10"></textarea>
+            </div>
+            <button>Fazer Pedido</button>
+          </form>
+          
+          <img src="./assets/head.jpeg" alt="" class="side-image">
+
+        </section>
+      </div>
+    </main>
+
+    <footer class="container">
+      <p>©2024 - Lanchonete Dona Maria</p>
+    </footer>
+  </div>
+</body>
+</html>
