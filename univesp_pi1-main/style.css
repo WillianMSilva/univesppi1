@@ -15,6 +15,7 @@
   --color-base-gray-500: #3D3D3D;
   --color-base-gray-900: #202024;
   --color-base-gray-1000: #c36708;
+  --color-base-gray-2000: #4caf50;
 
  }
 
@@ -152,7 +153,7 @@
 
  .tags span {
   padding: 0.6rem;
-  background-color: var(--color-base-gray-100);
+  background-color: var(--color-base-gray-900);
   border-radius: 0.4rem;
 
   line-height: 0;
